@@ -11,14 +11,14 @@ defineProps({
 <template>
 <div class="bg-black">
     <head title="welcome"/>
-    <div class="bg-gradient-to-r from-indigo-500/25 via-purple-500/25 to-pink-500/25 h-24">
+    <div class="bg-gradient-to-r from-indigo-500/25 via-purple-500/25 to-pink-500/25 ">
         <header class="text-white flex w-full">
-            <a href="#" class="p-8 text-lg absolute left-0">Jeroen Bollen</a>
-            <nav class="text-lg static p-8 ">
+            <a href="#" class="p-8 text-lg w-48">Jeroen Bollen</a>
+            <nav class="text-lg  w-full flex justify-center items-center">
                 <a href="#" class="p-8">Projects</a>
                 <a href="#" class="p-8">Contact</a>
                 <a href="#" class="p-8">About</a>
-            </nav> 
+            </nav>
         </header>
     </div>
     <main>
