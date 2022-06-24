@@ -36,9 +36,9 @@ defineProps({
                 The owner of T'Hoekske asked me to make a 3D drawing of his terrace with and without the extra compartment in order to get a permit. 
             </p>
         </div>
-        <img src="/public/images/render.png"/>        
+        <img src="/images/render.png" class="h-64 object-contain rounded hover:opacity-50 duration-300 cursor-pointer ml-3 shadow-lg mb-3"/>        
     </main>
-    <footer>
+    <footer class="pl-3">
 
         footer
     </footer>
