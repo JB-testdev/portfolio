@@ -15,9 +15,9 @@ defineProps({
         <header class="text-white flex w-full">
             <a href="#" class="p-8 text-lg w-24">Jeroen Bollen</a>
             <nav class="text-lg  w-full flex justify-center items-center">
-                <a href="#" class="p-8 hover:underline underline-offset-8 ">Projects</a>
-                <a href="#" class="p-8 hover:underline underline-offset-8">Contact</a>
-                <a href="#" class="p-8 hover:underline underline-offset-8">About</a>
+                <div class="p-8"><a href="#" class="link link-underline link-underline-black">Projects</a></div>
+                <div class="p-8"><a href="#" class="link link-underline link-underline-black">Contact</a></div>
+                <div class="p-8"><a href="#" class="link link-underline link-underline-black">About</a></div>
             </nav>
         </header>
     </div>
@@ -36,7 +36,7 @@ defineProps({
                 The owner of T'Hoekske asked me to make a 3D drawing of his terrace with and without the extra compartment in order to get a permit. 
             </p>
         </div>
-        <img src="/images/render.png" class="h-64 object-contain rounded hover:opacity-50 duration-300 cursor-pointer ml-3 shadow-lg mb-3"/>        
+        <img src="/images/render.png" class="w-1/2 object-contain rounded hover:opacity-50 duration-300 cursor-pointer ml-3 shadow-lg mb-3"/>        
     </main>
     <footer class="pl-3">
 
