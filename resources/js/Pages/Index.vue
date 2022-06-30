@@ -1,14 +1,5 @@
-<script setup>
-import { Head, Link } from '@inertiajs/inertia-vue3';
-
-defineProps({
-    canLogin: Boolean,
-    canRegister: Boolean,
-    laravelVersion: String,
-    phpVersion: String,
-})
-</script>
 <template>
+<link rel="stylesheet" href="https://unpkg.com/vue-agile/dist/VueAgile.css">
 <div class="bg-slate-800">
     <head title="welcome"/>
     <div class="bg-gradient-to-r from-indigo-500/50 via-purple-500/50 to-pink-500/50 width-full">
@@ -31,11 +22,53 @@ defineProps({
                     It has become a lot more busy since the reopening of the catering industry, and because of this the owner of T'Hoekske wanted to expand his terrace. In doing so he needed to have a permit, so he asked me to draw this in 3D.  This has been laid out for the city and has been approved. 
                 </p>
             </div>
+
+            
             <div class="col-span-2">
-                <img src="/images/render.png" class="object-contain rounded hover:opacity-50 duration-300 cursor-pointer shadow-lg abosolute"/>
+                <agile>
+                    <div class="slide h-full">
+                        <img src="/images/render.png" class="h-full object-cover rounded hover:opacity-50 duration-300 cursor-pointer shadow-lg abosolute"/>
+                    </div>
+                    <div class="slide h-full">
+                        <img src="/images/portal.png" class="object-cover rounded hover:opacity-50 duration-300 cursor-pointer shadow-lg"/>
+                    </div>
+                    <template #prevButton>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white mt-2 " fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M11 15l-3-3m0 0l3-3m-3 3h8M3 12a9 9 0 1118 0 9 9 0 01-18 0z" />
+                        </svg>
+                    </template>
+                    <template #nextButton>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white mt-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                    </template>
+                
+                    
+                    
+                </agile>
+                
             </div>
             <div>
-                <img src="/images/portal.png" class="object-contain rounded hover:opacity-50 duration-300 cursor-pointer shadow-lg abosolute"/>
+                <agile>
+                    <div class="slide">
+                        <img src="/images/portal.png" class="object-cover rounded hover:opacity-50 duration-300 cursor-pointer shadow-lg"/>
+                    </div>
+                
+                    
+                    <div class="slide">
+                        <img src="/images/portal.png" class="object-cover rounded hover:opacity-50 duration-300 cursor-pointer shadow-lg"/>
+                    </div>
+                    <template #prevButton>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white mt-2 " fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M11 15l-3-3m0 0l3-3m-3 3h8M3 12a9 9 0 1118 0 9 9 0 01-18 0z" />
+                        </svg>
+                    </template>
+                    <template #nextButton>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white mt-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                    </template>
+                </agile>
             </div>
             <div class="p-5 text-white bg-slate-300/25 rounded-md  text-center">
                 <h1 class="text-2xl font-heading mb-6 pt-16">    
@@ -46,7 +79,27 @@ defineProps({
                 </p>
             </div>
             <div>
-                <img src="/images/portal.png" class="object-contain rounded hover:opacity-50 duration-300 cursor-pointer shadow-lg abosolute"/>
+                <agile>
+                    <div class="slide">
+                        <img src="/images/portal.png" class="object-cover rounded hover:opacity-50 duration-300 cursor-pointer shadow-lg"/>
+                    </div>
+                
+                    
+                    <div class="slide">
+                        <img src="/images/portal.png" class="object-cover rounded hover:opacity-50 duration-300 cursor-pointer shadow-lg"/>
+                    </div>
+                    <template #prevButton>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white mt-2 " fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M11 15l-3-3m0 0l3-3m-3 3h8M3 12a9 9 0 1118 0 9 9 0 01-18 0z" />
+                        </svg>
+                    </template>
+                    <template #nextButton>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white mt-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                    </template>
+                </agile>
+                <!-- <img src="/images/portal.png" class="object-contain rounded hover:opacity-50 duration-300 cursor-pointer shadow-lg abosolute"/> -->
             </div>
         </div>
 
@@ -63,7 +116,17 @@ defineProps({
         <img src="/images/render.png" class="w-2/3 object-contain rounded hover:opacity-50 duration-300 cursor-pointer shadow-lg abosolute"/>
     </div>-->
             
+            
+            <div class="max-w-5xl mx-auto">
+
+                 
+            </div>
+   
     </main>
+
+
+
+
     <footer class="pl-3">
 
         footer
@@ -72,3 +135,12 @@ defineProps({
 
 
 </template>
+<script>
+import { VueAgile } from 'vue-agile'
+
+export default { 
+    components: {
+        agile: VueAgile 
+    }
+}
+</script>

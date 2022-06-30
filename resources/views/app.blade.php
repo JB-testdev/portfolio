@@ -11,13 +11,17 @@
 
         <!-- Styles -->
         <link rel="stylesheet" href="{{ mix('css/app.css') }}">
+        
+<link rel="stylesheet" href="https://unpkg.com/vue-agile/dist/VueAgile.css">
 
         <!-- Scripts -->
         @routes
         <script src="{{ mix('js/app.js') }}" defer></script>
+        <script src="https://unpkg.com/vue-agile"></script>
         @inertiaHead
     </head>
     <body class="font-sans antialiased">
+        
         @inertia
 
         @env ('local')
