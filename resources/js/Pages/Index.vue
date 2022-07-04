@@ -33,12 +33,15 @@
                 <h1 class="text-white text-center text-6xl">3D Projects</h1>
             </div>
             <div class="grid grid-cols-3 gap-5 place-content-center ">
-                <div class="p-5 text-white bg-slate-300/25 rounded text-center">
-                    <h1 class="text-2xl font-heading mb-6 pt-2">Terras T'Hoekske</h1>
-                    <p class="">
-                        It has become a lot more busy since the reopening of the catering industry, and because of this the owner of T'Hoekske wanted to expand his terrace. In doing so he needed to have a permit, so he asked me to draw this in 3D.  This has been laid out to the city and has been approved. 
-                    </p>
-                </div>   
+                <div class="p-5 text-white bg-slate-300/25 rounded text-center flex">
+                    <div class="self-center items-center flex">
+                    
+                        <div>
+                            <h1 class="text-2xl font-heading mb-6 pt-2">Terras T'Hoekske</h1>
+                            <p class=""> It has become a lot more busy since the reopening of the catering industry, and because of this the owner of T'Hoekske wanted to expand his terrace. In doing so he needed to have a permit, so he asked me to draw this in 3D. This has been laid out to the city and has been approved. </p>
+                        </div>
+                    </div>
+                </div>
                 <div class="col-span-2">
                     <agile>
                         <div class="slide h-full">
