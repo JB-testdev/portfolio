@@ -23867,7 +23867,7 @@ var _hoisted_8 = {
   "class": "mt-12 ml-36 mr-36 font-Montserrat"
 };
 
-var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"mb-5 pt-6 pb-6 w-full rounded bg-slate-300/25\"><h1 class=\"text-white text-center text-6xl\">About me</h1></div><div class=\"mb-12 w-full rounded bg-slate-300/25 p-5 grid grid-cols-3 gap-5\"><div class=\"text-white flex\"><p class=\"self-center text-center\">I am commited to learning and self-develop so that i can consistently achive better results. Hereby i am verry flexible in listening to others people ideas to look at a project in a different perspective.</p></div><div class=\"text-center\"><img src=\"/images/pictures/selfie.jpg\" class=\"rounded h-48 w-48\"></div><div> s </div></div><div class=\"mb-5 pt-6 pb-6 w-full rounded bg-slate-300/25\"><h1 class=\"text-white text-center text-6xl\">3D Projects</h1></div>", 3);
+var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"mb-5 pt-6 pb-6 w-full rounded bg-slate-300/25\"><h1 class=\"text-white text-center text-6xl\">About me</h1></div><div class=\"mb-12 w-full rounded bg-slate-300/25 p-5 grid grid-cols-3 gap-5\"><div class=\"text-white flex\"><p class=\"self-center text-center\">I am commited to learning and self-develop so that i can consistently achive better results. Hereby i am verry flexible in listening to others people ideas to look at a project in a different perspective.</p></div><div class=\"text-center\"><img src=\"/images/pictures/selfie.jpg\" class=\"rounded h-48 w-48\"></div><div></div></div><div class=\"mb-5 pt-6 pb-6 w-full rounded bg-slate-300/25\"><h1 class=\"text-white text-center text-6xl\">3D Projects</h1></div>", 3);
 
 var _hoisted_12 = {
   "class": "grid grid-cols-3 gap-5 place-content-center"
@@ -23941,27 +23941,7 @@ var _hoisted_18 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 /* HOISTED */
 );
 
-var _hoisted_19 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "/images/portal/portal.png",
-  "class": "object-cover rounded hover:opacity-50 duration-300 shadow-lg"
-})], -1
-/* HOISTED */
-);
-
-var _hoisted_20 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "p-5 text-white bg-slate-300/25 rounded text-center"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", {
-  "class": "text-2xl font-heading mb-6"
-}, " Portal "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " This was an experiment in blender to try and model a \"stylized\" object. With this simplicity of an object stands at the center of the model while also adding some detail here and there to make it look a bit used. Lighting was the most challenging part of this project to bring out the light in this model. ")], -1
-/* HOISTED */
-);
-
-var _hoisted_21 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "/images/portal/portal.png",
-  "class": "object-cover rounded hover:opacity-50 duration-300 shadow-lg"
-})], -1
-/* HOISTED */
-);
+var _hoisted_19 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div><img src=\"/images/portal/portal.png\" class=\"object-cover rounded hover:opacity-50 duration-300 shadow-lg\"></div><div class=\"p-5 text-white bg-slate-300/25 rounded text-center flex\"><div class=\"self-center\"><h1 class=\"text-2xl font-heading mb-6\"> Portal </h1><p> This was an experiment in blender to try and model a &quot;stylized&quot; object. With this simplicity of an object stands at the center of the model while also adding some detail here and there to make it look a bit used. Lighting was the most challenging part of this project to bring out the light in this model. </p></div></div><div><img src=\"/images/portal/portal.png\" class=\"object-cover rounded hover:opacity-50 duration-300 shadow-lg\"></div>", 3);
 
 var _hoisted_22 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "max-w-5xl mx-auto"
@@ -24073,10 +24053,12 @@ var _hoisted_33 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 );
 
 var _hoisted_34 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "p-5 text-white bg-slate-300/25 rounded text-center"
+  "class": "p-5 text-white bg-slate-300/25 rounded text-center flex"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "self-center"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", {
   "class": "text-2xl font-heading mb-6"
-}, " Gravity Skew "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Gravity Skew is a mobile game made in unity at a bootcamp in school together with 3 other students. This was a one-week project where we got the theme \"retro game\" on the day we started, so with no real preparation. The first day consisted of brainstorming and figuring out the mechanics of the game. We decided to make a game where if you tap the screen, you change the gravity to the top of the map and otherwise. This game was designed to make your way through the \"dungeon\" while juggling the gravity while the levels got consistently harder. At the end of the bootcamp, we won the prize of the best game made. ")], -1
+}, " Gravity Skew "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Gravity Skew is a mobile game made in unity at a bootcamp in school together with 3 other students. This was a one-week project where we got the theme \"retro game\" on the day we started, so with no real preparation. The first day consisted of brainstorming and figuring out the mechanics of the game. We decided to make a game where if you tap the screen, you change the gravity to the top of the map and otherwise. This game was designed to make your way through the \"dungeon\" while juggling the gravity while the levels got consistently harder. At the end of the bootcamp, we won the prize of the best game made. ")])], -1
 /* HOISTED */
 );
 
@@ -24108,7 +24090,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
     /* STABLE */
 
-  })]), _hoisted_19, _hoisted_20, _hoisted_21]), _hoisted_22, _hoisted_23, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_24, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_25, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_agile, null, {
+  })]), _hoisted_19]), _hoisted_22, _hoisted_23, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_24, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_25, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_agile, null, {
     prevButton: (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
       return [_hoisted_32];
     }),

@@ -28,7 +28,7 @@
                 </div>
                 
                 <div>
-                    s
+                    
                 </div>
             </div>
             <div class="mb-5 pt-6 pb-6 w-full rounded bg-slate-300/25">
@@ -67,13 +67,15 @@
                 <div>
                     <img src="/images/portal/portal.png" class="object-cover rounded hover:opacity-50 duration-300 shadow-lg"/>
                 </div>
-                <div class="p-5 text-white bg-slate-300/25 rounded text-center">
-                    <h1 class="text-2xl font-heading mb-6 ">    
-                        Portal
-                    </h1>
-                    <p >
-                        This was an experiment in blender to try and model a "stylized" object. With this simplicity of an object stands at the center of the model while also adding some detail here and there to make it look a bit used. Lighting was the most challenging part of this project to bring out the light in this model.
-                    </p>
+                <div class="p-5 text-white bg-slate-300/25 rounded text-center flex">
+                    <div class="self-center">
+                        <h1 class="text-2xl font-heading mb-6 ">    
+                            Portal
+                        </h1>
+                        <p >
+                            This was an experiment in blender to try and model a "stylized" object. With this simplicity of an object stands at the center of the model while also adding some detail here and there to make it look a bit used. Lighting was the most challenging part of this project to bring out the light in this model.
+                        </p>
+                    </div>
                 </div>
                 <div>
                     <img src="/images/portal/portal.png" class="object-cover rounded hover:opacity-50 duration-300 shadow-lg"/>
@@ -117,13 +119,16 @@
                         </template>
                     </agile>
                 </div>
-                <div class="p-5 text-white bg-slate-300/25 rounded text-center">
-                    <h1 class="text-2xl font-heading mb-6">    
-                        Gravity Skew
-                    </h1>
-                    <p>
-                        Gravity Skew is a mobile game made in unity at a bootcamp in school together with 3 other students. This was a one-week project where we got the theme "retro game" on the day we started, so with no real preparation. The first day consisted of brainstorming and figuring out the mechanics of the game. We decided to make a game where if you tap the screen, you change the gravity to the top of the map and otherwise. This game was designed to make your way through the "dungeon" while juggling the gravity while the levels got consistently harder. At the end of the bootcamp, we won the prize of the best game made.  
-                    </p>
+                <div class="p-5 text-white bg-slate-300/25 rounded text-center flex">
+                    <div class="self-center">
+                        <h1 class="text-2xl font-heading mb-6">    
+                            Gravity Skew
+                        </h1>
+                        <p>
+                            Gravity Skew is a mobile game made in unity at a bootcamp in school together with 3 other students. This was a one-week project where we got the theme "retro game" on the day we started, so with no real preparation. The first day consisted of brainstorming and figuring out the mechanics of the game. We decided to make a game where if you tap the screen, you change the gravity to the top of the map and otherwise. This game was designed to make your way through the "dungeon" while juggling the gravity while the levels got consistently harder. At the end of the bootcamp, we won the prize of the best game made.  
+                        </p>
+                    </div>
+                        
                 </div>
             </div>
         </div>
