@@ -20,14 +20,16 @@
                 <h1 class="text-white text-center text-6xl">About me</h1>
             </div>
             <div class=" mb-12 w-full rounded bg-slate-300/25 p-5 grid grid-cols-3 gap-5">
-                <div class="text-white text-center">
-                    <p>I am commited to learning and self-develop so that i can consistently achive better results. Hereby i am verry flexible in listening to others people ideas to look at a project in a different perspective.</p>
+                <div class="text-white flex ">
+                    <p class="self-center text-center">I am commited to learning and self-develop so that i can consistently achive better results. Hereby i am verry flexible in listening to others people ideas to look at a project in a different perspective.</p>
                 </div>
                 <div class="text-center">
                     <img src="/images/pictures/selfie.jpg" class="rounded h-48 w-48"/>
                 </div>
                 
-                <div></div>
+                <div>
+                    s
+                </div>
             </div>
             <div class="mb-5 pt-6 pb-6 w-full rounded bg-slate-300/25">
                 <h1 class="text-white text-center text-6xl">3D Projects</h1>
