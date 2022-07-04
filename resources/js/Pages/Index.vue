@@ -3,12 +3,12 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,100&display=swap" rel="stylesheet">
-<div class="bg-slate-900">
+<div class="bg-slate-900 relative">
     <head title="welcome font-Montserrat"/>
-    <div class="bg-gradient-to-r from-indigo-500/50 to-purple-500/50 width-full">
+    <div class="bg-gradient-to-r from-indigo-500/50 to-purple-500/50 width-full" id="home">
         <header class="text-white w-full">           
             <nav class="text-m  w-full flex justify-center items-center">
-                <div class="p-3"><a href="#" class="link link-underline link-underline-black">3D Projects</a></div>
+                <div class="p-3"><a href="#3d" class="link link-underline link-underline-black">3D Projects</a></div>
                 <div class="p-3"><a href="#" class="link link-underline link-underline-black">Game Design</a></div>
                 <div class="p-3"><a href="#" class="link link-underline link-underline-black ">About</a></div>
             </nav>
@@ -31,7 +31,7 @@
                     
                 </div>
             </div>
-            <div class="mb-5 pt-6 pb-6 w-full rounded bg-slate-300/25">
+            <div class="mb-5 pt-6 pb-6 w-full rounded bg-slate-300/25" id="3d">
                 <h1 class="text-white text-center text-6xl">3D Projects</h1>
             </div>
             <div class="grid grid-cols-3 gap-5 place-content-center ">
@@ -277,7 +277,12 @@
             </div>
         </div>
     </footer>
-    
+    <div class="fixed bottom-4 right-4">
+        <ul class="list-disc px-4 text-white ">
+            <li><a href="#home"> Home</a></li>
+            <li><a href="#3d"> 3d</a></li>
+        </ul>
+    </div>
 </div>
 
 

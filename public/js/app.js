@@ -23858,16 +23858,16 @@ var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 );
 
 var _hoisted_5 = {
-  "class": "bg-slate-900"
+  "class": "bg-slate-900 relative"
 };
 
-var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<head title=\"welcome font-Montserrat\"></head><div class=\"bg-gradient-to-r from-indigo-500/50 to-purple-500/50 width-full\"><header class=\"text-white w-full\"><nav class=\"text-m w-full flex justify-center items-center\"><div class=\"p-3\"><a href=\"#\" class=\"link link-underline link-underline-black\">3D Projects</a></div><div class=\"p-3\"><a href=\"#\" class=\"link link-underline link-underline-black\">Game Design</a></div><div class=\"p-3\"><a href=\"#\" class=\"link link-underline link-underline-black\">About</a></div></nav></header></div>", 2);
+var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<head title=\"welcome font-Montserrat\"></head><div class=\"bg-gradient-to-r from-indigo-500/50 to-purple-500/50 width-full\" id=\"home\"><header class=\"text-white w-full\"><nav class=\"text-m w-full flex justify-center items-center\"><div class=\"p-3\"><a href=\"#3d\" class=\"link link-underline link-underline-black\">3D Projects</a></div><div class=\"p-3\"><a href=\"#\" class=\"link link-underline link-underline-black\">Game Design</a></div><div class=\"p-3\"><a href=\"#\" class=\"link link-underline link-underline-black\">About</a></div></nav></header></div>", 2);
 
 var _hoisted_8 = {
   "class": "mt-12 ml-36 mr-36 font-Montserrat"
 };
 
-var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"mb-5 pt-6 pb-6 w-full rounded bg-slate-300/25\"><h1 class=\"text-white text-center text-6xl\">About me</h1></div><div class=\"mb-12 w-full rounded bg-slate-300/25 p-5 grid grid-cols-3 gap-5\"><div class=\"text-white flex\"><p class=\"self-center text-center\">I am commited to learning and self-develop so that i can consistently achive better results. Hereby i am verry flexible in listening to others people ideas to look at a project in a different perspective.</p></div><div class=\"text-center\"><img src=\"/images/pictures/selfie.jpg\" class=\"rounded h-48 w-48\"></div><div></div></div><div class=\"mb-5 pt-6 pb-6 w-full rounded bg-slate-300/25\"><h1 class=\"text-white text-center text-6xl\">3D Projects</h1></div>", 3);
+var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"mb-5 pt-6 pb-6 w-full rounded bg-slate-300/25\"><h1 class=\"text-white text-center text-6xl\">About me</h1></div><div class=\"mb-12 w-full rounded bg-slate-300/25 p-5 grid grid-cols-3 gap-5\"><div class=\"text-white flex\"><p class=\"self-center text-center\">I am commited to learning and self-develop so that i can consistently achive better results. Hereby i am verry flexible in listening to others people ideas to look at a project in a different perspective.</p></div><div class=\"text-center\"><img src=\"/images/pictures/selfie.jpg\" class=\"rounded h-48 w-48\"></div><div></div></div><div class=\"mb-5 pt-6 pb-6 w-full rounded bg-slate-300/25\" id=\"3d\"><h1 class=\"text-white text-center text-6xl\">3D Projects</h1></div>", 3);
 
 var _hoisted_12 = {
   "class": "grid grid-cols-3 gap-5 place-content-center"
@@ -24252,6 +24252,18 @@ var _hoisted_35 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 /* HOISTED */
 );
 
+var _hoisted_36 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "fixed bottom-4 right-4"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("ul", {
+  "class": "list-disc px-4 text-white"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  href: "#home"
+}, " Home")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  href: "#3d"
+}, " 3d")])])], -1
+/* HOISTED */
+);
+
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_agile = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("agile");
 
@@ -24281,7 +24293,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
     /* STABLE */
 
-  })]), _hoisted_34])])]), _hoisted_35])], 64
+  })]), _hoisted_34])])]), _hoisted_35, _hoisted_36])], 64
   /* STABLE_FRAGMENT */
   );
 }
