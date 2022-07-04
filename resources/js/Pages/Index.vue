@@ -3,35 +3,46 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,100&display=swap" rel="stylesheet">
-<div class="bg-slate-800">
+<div class="bg-slate-900">
     <head title="welcome font-Montserrat"/>
-    <div class="bg-gradient-to-r from-indigo-500/50 via-purple-500/50 to-pink-500/50 width-full">
-        <header class="text-white w-full">
-            <a href="#" class="pl-56 pt-4 text-lg w-24 absolute">Jeroen Bollen</a>
-            <nav class="text-lg  w-full flex justify-center items-center">
-                <div class="p-8"><a href="#" class="link link-underline link-underline-black">3D Projects</a></div>
-                <div class="p-8"><a href="#" class="link link-underline link-underline-black">Game Design</a></div>
-                <div class="p-8"><a href="#" class="link link-underline link-underline-black">Contact</a></div>
-                <div class="p-8"><a href="#" class="link link-underline link-underline-black ">About</a></div>
+    <div class="bg-gradient-to-r from-indigo-500/50 to-purple-500/50 width-full">
+        <header class="text-white w-full">           
+            <nav class="text-m  w-full flex justify-center items-center">
+                <div class="p-3"><a href="#" class="link link-underline link-underline-black">3D Projects</a></div>
+                <div class="p-3"><a href="#" class="link link-underline link-underline-black">Game Design</a></div>
+                <div class="p-3"><a href="#" class="link link-underline link-underline-black ">About</a></div>
             </nav>
         </header>
     </div>
     <main>
-        <div class="mt-16 ml-52 mr-52 font-Montserrat">
-            <div class="border-t-2 border-b-2 mt-16 mb-16 pt-6 pb-6 w-full rounded ">
+        <div class="mt-12  ml-36 mr-36 font-Montserrat">
+            <div class="mb-5 pt-6 pb-6 w-full rounded bg-slate-300/25">
+                <h1 class="text-white text-center text-6xl">About me</h1>
+            </div>
+            <div class=" mb-12 w-full rounded bg-slate-300/25 p-5 grid grid-cols-3 gap-5">
+                <div class="text-white text-center">
+                    <p>I am commited to learning and self-develop so that i can consistently achive better results. Hereby i am verry flexible in listening to others people ideas to look at a project in a different perspective.</p>
+                </div>
+                <div class="text-center">
+                    <img src="/images/pictures/selfie.jpg" class="rounded h-48 w-48"/>
+                </div>
+                
+                <div></div>
+            </div>
+            <div class="mb-5 pt-6 pb-6 w-full rounded bg-slate-300/25">
                 <h1 class="text-white text-center text-6xl">3D Projects</h1>
             </div>
             <div class="grid grid-cols-3 gap-5 place-content-center ">
-                <div class="p-5 text-white bg-slate-300/25 rounded-md text-center place-content-center pt-40">
+                <div class="p-5 text-white bg-slate-300/25 rounded text-center">
                     <h1 class="text-2xl font-heading mb-6 pt-2">Terras T'Hoekske</h1>
-                    <p >
+                    <p class="">
                         It has become a lot more busy since the reopening of the catering industry, and because of this the owner of T'Hoekske wanted to expand his terrace. In doing so he needed to have a permit, so he asked me to draw this in 3D.  This has been laid out to the city and has been approved. 
                     </p>
                 </div>   
-                <div class="col-span-2 ">
+                <div class="col-span-2">
                     <agile>
                         <div class="slide h-full">
-                            <img src="/images/t'hoekske/render.png" class="h-full contain rounded  shadow-lg "/>
+                            <img src="/images/t'hoekske/render.png" class="h-full contain rounded shadow-lg"/>
                         </div>
                         <div class="slide h-full">
                             <img src="/images/portal/portal.png" class="contain rounded hover:opacity-50 duration-300 cursor-pointer shadow-lg"/>
@@ -49,10 +60,10 @@
                     </agile>
                 </div>
                 <div>
-                    <img src="/images/portal/portal.png" class="object-cover rounded hover:opacity-50 duration-300 cursor-pointer shadow-lg"/>
+                    <img src="/images/portal/portal.png" class="object-cover rounded hover:opacity-50 duration-300 shadow-lg"/>
                 </div>
-                <div class="p-5 text-white bg-slate-300/25 rounded-md  text-center">
-                    <h1 class="text-2xl font-heading mb-6 pt-12">    
+                <div class="p-5 text-white bg-slate-300/25 rounded text-center">
+                    <h1 class="text-2xl font-heading mb-6 ">    
                         Portal
                     </h1>
                     <p >
@@ -60,15 +71,15 @@
                     </p>
                 </div>
                 <div>
-                    <img src="/images/portal/portal.png" class="object-cover rounded hover:opacity-50 duration-300 cursor-pointer shadow-lg"/>
+                    <img src="/images/portal/portal.png" class="object-cover rounded hover:opacity-50 duration-300 shadow-lg"/>
                 </div>
             </div>          
                 <div class="max-w-5xl mx-auto">
             </div>
-            <div class="border-t-2 border-b-2 mt-16 mb-16 pt-6 pb-6 w-full rounded ">
+            <div class="bg-slate-300/25 mt-12 mb-5 pt-6 pb-6 w-full rounded ">
                 <h1 class="text-white text-center text-6xl">Game Design</h1>
             </div>
-            <div class="grid grid-cols-3 gap-5 place-content-center ">
+            <div class="grid grid-cols-3 gap-5 place-content-center">
                 <div class="col-span-2">
                     <agile>
                         <div class="slide h-full">
@@ -101,8 +112,8 @@
                         </template>
                     </agile>
                 </div>
-                <div class="p-5 text-white bg-slate-300/25 rounded-md  text-center">
-                    <h1 class="text-2xl font-heading mb-6 pt-20">    
+                <div class="p-5 text-white bg-slate-300/25 rounded text-center">
+                    <h1 class="text-2xl font-heading mb-6">    
                         Gravity Skew
                     </h1>
                     <p>
@@ -112,14 +123,20 @@
             </div>
         </div>
     </main>
-
-
-
-
-    <footer class="pl-3">
-
-        footer
+    <footer>
+        <div class="grid grid-cols-3 h-36 w-full text-white mt-12 pl-36 pr-36 text-lg bg-gradient-to-r from-indigo-500/50 to-purple-500/50">
+            <div class="text-center">
+                <p>lorem ipsum </p>
+            </div>
+            <div class="text-center">
+                <p>lorem ipsum</p>
+            </div>
+            <div class="text-center">
+                <p>lorem ipsum</p>
+            </div>
+        </div>
     </footer>
+    
 </div>
 
 
