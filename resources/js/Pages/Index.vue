@@ -9,21 +9,21 @@
         <header class="text-white w-full">           
             <nav class="text-m  w-full flex justify-center items-center">
                 <div class="p-3"><a href="#3d" class="link link-underline link-underline-black">3D Projects</a></div>
-                <div class="p-3"><a href="#" class="link link-underline link-underline-black">Game Design</a></div>
-                <div class="p-3"><a href="#" class="link link-underline link-underline-black ">About</a></div>
+                <div class="p-3"><a href="#GameDesign" class="link link-underline link-underline-black">Game Design</a></div>
+                <div class="p-3"><a href="#About" class="link link-underline link-underline-black ">About</a></div>
             </nav>
         </header>
     </div>
     <main>
         <div class="mt-12  ml-36 mr-36 font-Montserrat">
-            <div class="mb-5 pt-6 pb-6 w-full rounded bg-slate-300/25">
+            <div class="mb-5 pt-6 pb-6 w-full rounded bg-slate-300/25" id="About">
                 <h1 class="text-white text-center text-6xl">About me</h1>
             </div>
             <div class=" mb-12 w-full rounded bg-slate-300/25 p-5 grid grid-cols-3 gap-5">
                 <div class="text-white flex ">
                     <p class="self-center text-center">I am commited to learning and self-develop so that i can consistently achive better results. Hereby i am verry flexible in listening to others people ideas to look at a project in a different perspective.</p>
                 </div>
-                <div class="text-center">
+                <div class="mx-auto">
                     <img src="/images/pictures/selfie.jpg" class="rounded h-48 w-48"/>
                 </div>
                 
@@ -80,10 +80,26 @@
                 <div>
                     <img src="/images/portal/portal.png" class="object-cover rounded hover:opacity-50 duration-300 shadow-lg"/>
                 </div>
+                <div>
+                    <img src="/images/chair/chair.png" class="object-cover rounded hover:opacity-50 duration-300 shadow-lg w-full h-full"/>
+                </div>
+                <div class="p-5 text-white bg-slate-300/25 rounded text-center flex">
+                    <div class="self-center">
+                        <h1 class="text-2xl font-heading mb-6 ">    
+                            chair
+                        </h1>
+                        <p>
+                            A chair to learn how to make something realistic in blender. Learning more about topology and UV unwrapping to make the textures look real with added bump maps. Lighting does a lot of work to bring out the best of an object so it has to be carefully placed. 
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <img src="/images/chair/chair topology.PNG" class="object-cover rounded hover:opacity-50 duration-300 shadow-lg  w-full h-full"/>
+                </div>
             </div>          
                 <div class="max-w-5xl mx-auto">
             </div>
-            <div class="bg-slate-300/25 mt-12 mb-5 pt-6 pb-6 w-full rounded ">
+            <div class="bg-slate-300/25 mt-12 mb-5 pt-6 pb-6 w-full rounded " id="GameDesign">
                 <h1 class="text-white text-center text-6xl">Game Design</h1>
             </div>
             <div class="grid grid-cols-3 gap-5 place-content-center">
@@ -127,9 +143,50 @@
                         <p>
                             Gravity Skew is a mobile game made in unity at a bootcamp in school together with 3 other students. This was a one-week project where we got the theme "retro game" on the day we started, so with no real preparation. The first day consisted of brainstorming and figuring out the mechanics of the game. We decided to make a game where if you tap the screen, you change the gravity to the top of the map and otherwise. This game was designed to make your way through the "dungeon" while juggling the gravity while the levels got consistently harder. At the end of the bootcamp, we won the prize of the best game made.  
                         </p>
-                    </div>
-                        
+                    </div>     
                 </div>
+
+                <div class="p-5 text-white bg-slate-300/25 rounded text-center flex">
+                    <div class="self-center">
+                        <h1 class="text-2xl font-heading mb-6">    
+                            Sick Bay
+                        </h1>
+                        <p>
+                            Gravity Skew is a mobile game made in unity at a bootcamp in school together with 3 other students. This was a one-week project where we got the theme "retro game" on the day we started, so with no real preparation. The first day consisted of brainstorming and figuring out the mechanics of the game. We decided to make a game where if you tap the screen, you change the gravity to the top of the map and otherwise. This game was designed to make your way through the "dungeon" while juggling the gravity while the levels got consistently harder. At the end of the bootcamp, we won the prize of the best game made.  
+                        </p>
+                    </div>     
+                </div>
+                <div class="col-span-2">
+                    <iframe class="rounded w-full h-full" src="https://www.youtube.com/embed/caVYQP5RhiM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                
+                </div>
+                <agile>
+                        <div class="slide h-full">
+                            <img src="/images/gravity skew/jeroen-bollen-startup-gs.jpg" class="h-full contain rounded  shadow-lg "/>
+                        </div>
+                        <div class="slide h-full">
+                            <img src="/images/gravity skew/jeroen-bollen-lvl1-2-gs.jpg" class="h-full contain rounded  shadow-lg "/>
+                        </div>
+                        <div class="slide h-full">
+                            <img src="/images/gravity skew/jeroen-bollen-lvl2-gs.jpg" class="h-full contain rounded  shadow-lg "/>
+                        </div>
+                        <div class="slide h-full">
+                            <img src="/images/gravity skew/jeroen-bollen-lvl3-gs.jpg" class="h-full contain rounded  shadow-lg "/>
+                        </div>
+                        <div class="slide h-full">
+                            <img src="/images/gravity skew/jeroen-bollen-lvl4-gs.jpg" class="h-full contain rounded  shadow-lg "/>
+                        </div>
+                        <div class="slide h-full">
+                            <img src="/images/gravity skew/jeroen-bollen-lvl5-gs.jpg" class="h-full contain rounded  shadow-lg "/>
+                        </div>
+                        <template #prevButton>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mt-2 text-white hover:bg-black/50 rounded-l" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M11 15l-3-3m0 0l3-3m-3 3h8M3 12a9 9 0 1118 0 9 9 0 01-18 0z" />
+                            </svg>
+                        </template>
+                        <template #nextButton>
+                            <button aria-label="Next" class="agile__nav-button agile__nav-button--next" type="button"><i class="fas fa-chevron-right"></i></button>
+                        </template>
+                </agile>
             </div>
         </div>
     </main>
@@ -279,13 +336,14 @@
     </footer>
     <div class="fixed bottom-4 right-4">
         <ul class="list-disc px-4 text-white ">
-            <li><a href="#home"> Home</a></li>
-            <li><a href="#3d"> 3d</a></li>
+            <a href="#home"><li></li></a>
+            <a href="#About"><li></li></a>
+            <a href="#3d"> <li></li></a>
+            <a href="#GameDesign"><li></li></a>
         </ul>
     </div>
+    
 </div>
-
-
 </template>
 <script>
 import { VueAgile } from 'vue-agile'
